@@ -1,0 +1,200 @@
+/* top container */
+body{
+  font-family: 'Roboto',sans-serif;
+  position:relative;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+/* navbar */
+.navbar{
+  padding-left: 15px;
+}
+.active{
+  background-color: black;
+  opacity:1;
+  color:#fff;
+}
+.navcover{
+  padding:0;
+  background-color: #222;
+  border-bottom: 1px solid black;
+  border-top: 0;
+  z-index: 1;
+}
+.active .nav-link{
+  opacity:1;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Roboto",sans-serif;
+  font-weight: 300;
+  background-color: transparent;
+  color:#fff;
+  opacity:0.5;
+}
+.nav-link:hover{
+  opacity:1;
+  color:#fff;
+}
+
+.navbar-brand
+{
+  padding:15px;
+  margin-right: 0;
+}
+/* navbar link hover code  */
+.nav-item:hover{
+  background-color: black;
+  }
+
+@media (min-width: 768px)
+  {.navbar-expand-md .navbar-nav .nav-link {
+        padding:15px;
+       }
+   }
+/* logo and introline */
+.logo-intro{
+  text-align: center;
+  padding-top: 53px;
+}
+.logo-intro .container-fluid{
+  background-color:#222;
+}
+.image{
+  padding: 80px 0 40px 0;
+}
+.Logo-image{
+  width:175px;
+  height:172px;
+  margin: 0 auto 0 auto;
+  animation: DeltaGlow 5s ease-in-out infinite;
+}
+
+@keyframes DeltaGlow {
+
+
+  0%
+  {
+    opacity:0.4;
+  }
+
+  50%{
+    opacity:1;
+  }
+
+  100%{
+    opacity:0.4;
+  }
+}
+/* introline */
+.logo-text{
+  color: green;
+  font-family: 'Roboto-Mono',monospace;
+  font-size: 34px;
+  font-weight: 400;
+  padding: 20px 0 100px 0;
+}
+/* main-body */
+.content{
+  padding:0;
+}
+.row1{
+  background-color: #fff;
+padding: 40px 0 3px;
+}
+.col-md-1{
+  margin-right: 4%;
+}
+/* Whowe are image */
+.whoimg{
+  width:100%;
+}
+.center{
+  text-align: center;
+}
+.vcenter{
+  margin: 3% 0 0;
+  vertical-align: middle;
+}
+/* Who we are text */
+.contents{
+  font-size: 3.5em;
+  padding:20px 0 10px;
+  font-weight: 100;
+  margin-bottom: 0;
+  height:75px;
+}
+p{
+  font-size: 18px;
+  text-align: justify;
+  font-weight: 100;
+  padding:0 20px;
+}
+.btn{
+  font-weight: 100;
+  font-size: 18px;
+  padding:10px 15px;
+}
+.row2{
+  padding: 20px 0 20px;
+}
+/* Events */
+.events{
+  background-color: #222;
+  text-align: center;
+  padding-top: 30px;
+color: #fff;
+padding-bottom: 10px;
+}
+.Events{
+  font-size: 3.5rem;
+font-weight: 100;
+}
+
+h2{
+  font-weight: 100;
+  font-size: 26px;
+}
+.workshopHeading{
+    padding: 30px 0 20px;
+}
+.hackerHeading
+{
+  padding: 20px 0 20px;
+}
+ .HackerTalks {
+   width:55%;
+   margin:0 auto;
+ }
+ .eventContent{
+   text-align:center;
+ }
+ .eventsPic{
+   width:100%;
+   margin:0 0 20px;
+ }
+ .eventsButton{
+   background-color: #333;
+   color:#fff;
+ }
+ .eventsButton:hover{
+   background-color:#fff;
+   color:black;
+ }
+.eventsRule{
+  width: 75%;
+  background-color: #fff;
+}
+/* footer */
+.footer{
+  color: green;
+  text-align: center;
+  background-color: #111111;
+      border-top: 1px solid rgb(70,70,70);
+}
+.footerText{
+  font-size: 14px;
+  text-align: center;
+  font-weight: 400;
+    margin-bottom: 0;
+}
